@@ -1,0 +1,173 @@
+.rolu {
+    margin: 30px auto;
+
+    p {
+        display: inline;
+        font-size: 36px;
+        margin: 68px;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #c3d6ed
+  }
+
+p {
+    font-size: 30px;
+}
+
+.center {
+    height: 80px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+  }
+
+body {
+    background-color: #2A4480;
+    color: #c3d6ed;
+}
+
+hr {
+    border: none; 
+    height: 3px; 
+    background-color: #647fbe; 
+    margin: 1em 0; 
+    margin-top: 10px;
+  }
+
+  .clear {
+    clear: both; 
+  }
+
+
+
+.ramka {
+    display: inline-block; 
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 5px; 
+    background-color: #247dd0d8;
+  }
+
+  .ramka2 {
+    display: inline-block; 
+    border: 2px solid black;
+    padding: 10px;
+    background-color: #247dd0d8;
+
+    p{
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  }
+    
+.ikonka {
+    margin: 50px auto;
+    margin-right: auto;
+
+    img {
+        max-width: 200px;
+        float: left;
+        margin-right: 20px;
+        border: 3px solid #000000;
+    } 
+}
+
+.ikonka-okno {
+    margin-left: 20px;
+    margin-right: auto;
+
+    img {
+        max-width: 150px;
+        float: left;
+        margin-right: 20px;
+        border: 3px solid #000000;
+    } 
+}
+
+.ikonka-naviki {
+    margin-left: 20px;
+    margin-right: auto;
+
+    img {
+        max-width: 100px;
+        float: left;
+        margin-right: 20px;
+    } 
+}
+
+.text {
+    p {
+       font-size: 25px;
+    }
+}
+
+.kartinka {
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .kartinka-text {
+    flex: 1; 
+    padding-right: 20px;
+    padding-left: 20px; 
+    text-align: left; 
+  }
+  
+  .kartinka-image {
+    width: auto; 
+    height: auto; 
+    max-width: 50%; 
+    border: 3px solid black;
+  }
+
+  .slideshow-container {
+    position: relative;
+    width: 50%; 
+    float: left;
+    margin-right: 50px;
+    margin-right: 20px; 
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  .mySlides img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+
+  
